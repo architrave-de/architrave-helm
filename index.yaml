@@ -1,12 +1,11 @@
 apiVersion: v1
 entries:
-  mysql_exporter:
+  mysql-exporter:
   - apiVersion: v1
     appVersion: latest
-    created: 2018-09-06T14:38:31.408905218+02:00
+    created: 2018-09-06T16:22:59.938866199+02:00
     description: Helm charm to deploy mysql-exporter sidekick for MySQL container
-    digest: 1288badee4df7d9dbe7e781fd7f70de0f0cb2fcfd41face1729c6a874e099632
-    engine: gotpl
+    digest: 9a28031196f6792fe4b7d804890b0fcfb4aa3d4d6f0d2dc561543069286277f4
     home: https://prometheus.io/docs/instrumenting/exporters/
     icon: https://prometheus.io/assets/prometheus_logo_grey.svg
     keywords:
@@ -17,20 +16,20 @@ entries:
     maintainers:
     - email: tal@architrave.de
       name: Nir Tal
-    name: mysql_exporter
+    name: mysql-exporter
     sources:
     - https://github.com/prometheus/mysqld_exporter
     urls:
-    - https://architrave-de.github.io/architrave-helm/mysql_exporter-0.1.0.tgz
+    - https://architrave-de.github.io/architrave-helm/mysql-exporter-0.1.0.tgz
     version: 0.1.0
   nginx:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-09-04T10:59:56.276987308+02:00
+    created: 2018-09-06T16:22:59.939493902+02:00
     description: A Helm chart for Kubernetes
     digest: 477897826ba1acfd1945ce823e6839077a7823eedafc0f3eabc389fc704b188c
     name: nginx
     urls:
     - https://architrave-de.github.io/architrave-helm/nginx-0.1.0.tgz
     version: 0.1.0
-generated: 2018-09-06T14:38:31.408138758+02:00
+generated: 2018-09-06T16:22:59.938241126+02:00
