@@ -13,7 +13,7 @@ To update the repository with new charts and chart versions
 2. `cd architrave-helm`
 3. Checkout `gh-pages` branch by running `git checkout gh-pages`
 4. Copy `chart1-{version from chrt}.gz` to the root of the the repo
-5. To update the `index.yaml` file, run `helm repo index . --url https://architrave-de.github.io/architrave-helm/`
+5. To update the `index.yaml` file, run `helm repo index . --merge index.yaml --url https://architrave-de.github.io/architrave-helm/`
 6. Commit the changes by running `git commit -a -m "Added chart1-{version from chrt}"`
 7. Push the changes `git push`
 
