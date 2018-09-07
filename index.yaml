@@ -3,7 +3,7 @@ entries:
   mysql-exporter:
   - apiVersion: v1
     appVersion: latest
-    created: 2018-09-07T15:42:27.019849201+02:00
+    created: 2018-09-07T17:13:22.34270066+02:00
     description: Helm charm to deploy mysql-exporter sidekick for MySQL container
     digest: 9e966e318124bf72e44e629c2f87577f4450420c62a64ee8c750f301f107db03
     home: https://prometheus.io/docs/instrumenting/exporters/
@@ -22,33 +22,12 @@ entries:
     urls:
     - https://architrave-de.github.io/architrave-helm/mysql-exporter-0.1.5.tgz
     version: 0.1.5
-  - apiVersion: v1
-    appVersion: latest
-    created: 2018-09-07T15:42:27.019399693+02:00
-    description: Helm charm to deploy mysql-exporter sidekick for MySQL container
-    digest: fd529fb44447b91a3e41e85fd0f62e9f7269a1e496959d8f0659fd95d8d43d6c
-    home: https://prometheus.io/docs/instrumenting/exporters/
-    icon: https://prometheus.io/assets/prometheus_logo_grey.svg
-    keywords:
-    - Prometheus
-    - exporter
-    - mysql
-    - sidekick
-    maintainers:
-    - email: tal@architrave.de
-      name: Nir Tal
-    name: mysql-exporter
-    sources:
-    - https://github.com/prometheus/mysqld_exporter
-    urls:
-    - https://architrave-de.github.io/architrave-helm/mysql-exporter-0.1.4.tgz
-    version: 0.1.4
   php-fpm-exporter:
   - apiVersion: v1
     appVersion: v0.4.1
-    created: 2018-09-07T15:42:27.020155915+02:00
+    created: 2018-09-07T17:13:22.34304225+02:00
     description: Helm charm to deploy php-fpm-exporter sidecar for php-fpm container
-    digest: e5cb63c6e5484912076c9c9e4c5e0ddd2b31858571c6dfadf8f9bdc09902a893
+    digest: eb2c9946793a74b6a38c2cd540fdc98f12189cd08664a43c409da2884638cbaf
     home: https://prometheus.io/docs/instrumenting/exporters/
     icon: https://prometheus.io/assets/prometheus_logo_grey.svg
     keywords:
@@ -63,6 +42,6 @@ entries:
     sources:
     - https://github.com/bakins/php-fpm-exporter
     urls:
-    - https://architrave-de.github.io/architrave-helm/php-fpm-exporter-0.1.0.tgz
-    version: 0.1.0
-generated: 2018-09-07T15:42:27.01873549+02:00
+    - https://architrave-de.github.io/architrave-helm/php-fpm-exporter-0.1.8.tgz
+    version: 0.1.8
+generated: 2018-09-07T17:13:22.342203666+02:00
